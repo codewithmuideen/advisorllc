@@ -9,6 +9,7 @@ import BookPromoSection from '../components/BookPromoSection';
 import EightStepProgram from '../components/EightStepProgram';
 import FaqSection from '../components/FaqSection';
 import BlogSection from '../components/BlogSection';
+import Newsletter from '../components/Newsletter';
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <EightStepProgram />
       <FaqSection />
       <BlogSection />
+      <Newsletter />
     </>
   );
 };

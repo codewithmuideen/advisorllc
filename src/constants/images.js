@@ -1,5 +1,6 @@
 import logo from "../assets/logoblack2.svg";
 import hero from "../assets/hero.webp";
+import arthur from "../assets/arthur.webp";
 import clients from "../assets/clients.webp";
 import amazon from "../assets/amazon.webp";
 import kindle from "../assets/kindle.webp";
@@ -10,7 +11,18 @@ import team3 from "../assets/team3.webp";
 import network from "../assets/network.webp";
 import connect from "../assets/connect.webp";
 import coach from "../assets/coach.jpg";
+import logos_white_06 from "../assets/logos-white_06.png";
+import logos_white_07 from "../assets/logos-white_07.png";
+import logos_white_08 from "../assets/logos-white_08.png";
+import logos_white_09 from "../assets/logos-white_09.png";
+import logos_white_10 from "../assets/logos-white_10.png";
 export default {
+  arthur,
+  logos_white_06,
+  logos_white_07,
+  logos_white_08,
+  logos_white_09,
+  logos_white_10,
   logo,
   coach,
   connect,

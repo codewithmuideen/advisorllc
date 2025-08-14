@@ -1,0 +1,13 @@
+/* Custom styles to match theme */
+.PhoneInputInput {
+  flex: 1;
+  min-width: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 0.75rem; /* 12px */
+}
+
+.PhoneInputCountry {
+  margin-right: 0.5rem; /* 8px */
+}

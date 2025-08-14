@@ -15,20 +15,20 @@ const Logo = () => (
 );
 
 const navLinks = [
-  { title: 'About', href: '#' },
+  { title: 'About', href: '/about' },
   {
     title: 'Services',
-    href: '#',
+    href: '',
     submenu: [
-      { title: 'Career Coaching', href: '#' },
-      { title: 'Resume writing', href: '#' },
-      { title: 'LinkedIn Optimization', href: '#' },
-      { title: 'Job Interview Preparation', href: '#' },
+      { title: 'Career Coaching', href: '/career-coaching' },
+      { title: 'Resume writing', href: '/resume-writing' },
+      { title: 'LinkedIn Optimization', href: '/linkedin-optimization' },
+      { title: 'Job Interview Preparation', href: '/job-interview-preparation' },
     ],
   },
-  { title: 'Pricing', href: '#' },
-  { title: 'Resources', href: '#' },
-  { title: 'Contact', href: '#' },
+  { title: 'Pricing', href: '/pricing' },
+  { title: 'Resources', href: '/resources' },
+  { title: 'Contact', href: '/contact' },
 ];
 
 const Navbar = () => {

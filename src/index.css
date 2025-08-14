@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.PhoneInputInput {
+  flex: 1;
+  min-width: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 0.75rem; 
+}
 
-/* In your global CSS file (e.g., index.css) */
+.PhoneInputCountry {
+  margin-right: 0.5rem;
+}
 
-/* 
-  This media query targets screen sizes smaller than the 'lg' breakpoint (1024px),
-  which is when the mobile menu becomes active in your component.
-*/
 @media (max-width: 1023px) {
-  /*
-    We specifically target the logo image by its 'alt' attribute.
-    This is a robust way to select it without relying on potentially
-    generic class names. We then override the height.
-  */
+ 
   img[alt="Global Career Advisors Logo"] {
-    height: 2.75rem; /* Equivalent to Tailwind's h-11, a good size for mobile */
+    height: 2.75rem; 
   }
 }

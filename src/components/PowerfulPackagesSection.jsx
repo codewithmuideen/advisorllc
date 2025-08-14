@@ -154,12 +154,13 @@ const PowerfulPackagesSection = () => {
                 </div>
 
                 <div className="mt-20 text-center">
-                    <a
-                        href="/contact"
-                        className="inline-block bg-yellow-400 text-gray-900 font-bold text-lg py-4 px-10 rounded-full shadow-lg hover:bg-yellow-500 transform hover:scale-105 transition-all duration-300"
-                    >
-                        Book a FREE career session today!
-                    </a>
+                  <a
+  href="/contact"
+  className="inline-block bg-yellow-400 text-gray-900 font-bold text-sm sm:text-lg py-3 px-6 sm:py-4 sm:px-10 rounded-full shadow-lg hover:bg-yellow-500 transform hover:scale-105 transition-all duration-300 whitespace-nowrap"
+>
+  Book a FREE career session today!
+</a>
+
                 </div>
             </div>
         </div>
