@@ -141,7 +141,7 @@ const TermsAndConditionsPage = () => {
                 </Section>
 
                 <Section id="contact" title="Contact Us" icon={FiMail}>
-                    <p>If you have any questions regarding these Terms and Conditions, please contact us at <a href="https://www.globalcareeradvisorllc.com/contact" className="text-blue-600 underline hover:no-underline">www.globalcareeradvisors.com/contact</a>.</p>
+                    <p>If you have any questions regarding these Terms and Conditions, please contact us at <a href="https://www.globalcareeradvisorllc.com/contact" className="text-blue-600 underline hover:no-underline">www.globalcareeradvisorllc.com/contact</a>.</p>
                 </Section>
             </main>
 

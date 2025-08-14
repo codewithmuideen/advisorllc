@@ -25,19 +25,19 @@ const servicesData = [
     title: "Executive Coaching",
     description:
       "Strategic coaching for senior leaders to sharpen leadership skills, decision-making, and career growth.",
-    href: "/executive-coaching",
+    href: "/",
   },
   {
     title: "Recent Grad Coaching",
     description:
       "Tailored support to help new graduates land their first job and start strong in their careers.",
-    href: "/recent-grad-coaching",
+    href: "/",
   },
   {
     title: "Job Interview Coaching",
     description:
       "One-on-one coaching to master interview techniques, boost confidence, and secure job offers.",
-    href: "/job-interview-coaching",
+    href: "/job-interview-preparation",
   },
 ];
 
