@@ -150,7 +150,7 @@ const Header = () => {
         <div className="bg-gray-900 text-white text-xs sm:text-sm">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-center sm:justify-between items-center py-4">
             <p>
-              ⚡ Supercharge your Job Search.
+              ⚡ Supercharge your Job Search Strategy to transform your life financially, emotionally, and personally.
               <a href="/contact" className="font-bold underline ml-2 hover:text-yellow-400 transition-colors">
                 BOOK A CALL NOW
               </a>

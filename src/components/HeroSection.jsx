@@ -11,27 +11,33 @@ const HeroSection = () => {
           
           {/* Left Side: Text Content */}
           <div className="text-center lg:text-left">
-            <p className="font-bold text-gray-900">
+            {/* CHANGED: Increased font size by adding 'text-lg' for better mobile visibility */}
+            <p className="text-lg font-bold text-gray-900">
               Career Coaching: Land your dream job in 90 days
             </p>
-            <h1 className="text-5xl md:text-6xl font-extrabold text-black mt-4 leading-tight">
-              BUILD THE <br />
-              FUTURE YOU'VE <br />
-              ALWAYS IMAGINED
+            {/* 
+              CHANGED: 
+              1. Reduced mobile font size from 'text-5xl' to 'text-4xl'.
+              2. Removed <br /> tags to allow text to flow naturally without forced breaks.
+            */}
+            <h1 className="text-3xl md:text-6xl font-extrabold text-black mt-4 leading-tight">
+              BUILD THE FUTURE YOU'VE ALWAYS IMAGINED
             </h1>
             <div className="mt-10 flex flex-col sm:flex-row sm:items-center gap-4 justify-center lg:justify-start">
-              <a
-                href="/contact"
-                className="w-full sm:w-auto text-center bg-black text-white font-bold py-4 px-8 rounded-full hover:bg-gray-800 transition-transform hover:scale-105"
-              >
-                Test Your Career Readiness Now
-              </a>
-              <a
-                href="/contact"
-                className="w-full sm:w-auto text-center text-black font-bold py-4 px-8 rounded-full border-2 border-black hover:bg-black hover:text-white transition-all"
-              >
-                Book A Breakthrough Session Today
-              </a>
+ <a
+  href="/contact"
+  className="w-full sm:w-auto text-center bg-black text-white font-bold text-sm sm:text-base lg:text-sm py-4 px-8 rounded-full hover:bg-gray-800 transition-transform hover:scale-105 whitespace-nowrap"
+>
+  Test Your Career Readiness Now
+</a>
+
+<a
+  href="/contact"
+  className="w-full sm:w-auto text-center text-black font-bold text-sm sm:text-base lg:text-sm py-4 px-8 rounded-full border-2 border-black hover:bg-black hover:text-white transition-all whitespace-nowrap"
+>
+  Book A Breakthrough Session Today
+</a>
+
             </div>
           </div>
 
